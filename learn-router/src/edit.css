@@ -1,0 +1,22 @@
+#edit-container{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 20px;
+    flex: 0 0.5;
+}
+.label {
+    width: 300px;
+}
+#edit-container > #save {
+    margin-left: 50%;
+}
+#edit-container > textarea, input {
+    width: 50%;
+}
+
+#edit-container > #name {
+    width:23.6%;
+}
