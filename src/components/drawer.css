@@ -1,15 +1,25 @@
 .drawer {
     position: fixed;
     z-index: 9;
-    border-radius: 20px;
-    width: 300px;
+    border-radius: 0px 20px 20px 0px;
+    border-left: 1px solid #e1e3e1;
+    width: 230px;
     height: 100vh;
     padding-left: 90px;
-    background-color: rgb(20, 190, 133);
+    background-color: #f3f6fc;
     left: -200%;
     transition: all 700ms cubic-bezier(0.2, 0 , 0 , 1);
 }
 
+@keyframes text {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+
+}
 .drawer.visible {
-    left: 0%;
+    left: 70px;
 }

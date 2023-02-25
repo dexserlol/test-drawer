@@ -17,8 +17,8 @@ function App() {
       <div className='leftBoard' ref={elClick}>
         
         <div className='leftBoardContent'>
-          <IconBoard content={{content:"test 1"}} drawer={setOpen} redirect={'/'} text={"Home"} icon={HomeIcon}/>
-          <IconBoard content={{content:"test 2"}} drawer={setOpen} redirect={'/home'} text={"Home"} icon={HomeIcon}/>
+          <IconBoard content={{test:"test 1"}} drawer={setOpen} redirect={'/'} text={"Home"} icon={HomeIcon}/>
+          <IconBoard content={{test:"test 2"}} drawer={setOpen} redirect={'/home'} text={"Home"} icon={HomeIcon}/>
           <IconBoard content={false} drawer={setOpen} redirect={'/test'} text={"Home"} icon={HomeIcon}/>
         </div >
         <Drawer open={open} />

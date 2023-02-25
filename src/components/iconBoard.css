@@ -33,12 +33,13 @@
     z-index: 5;
 }
 .container--back:hover {
-    background-color: rgba(0, 193, 193, 0.5);
+    background-color: rgba(68, 71, 70, 0.08);
+    background-color: rgba(68, 71, 70, 0.12);
 
 }
 
 .containerIcon.open .container--back::before {
-    background-color: aqua;
+    background-color: #c2e7ff;
     transform: scaleX(1);
 }
 .containerIcon h1 {
