@@ -1,0 +1,37 @@
+.btn-container {
+    background-color: #f0f3e8;
+    height: 60px;
+    /*width: 440px;*/
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.btn-container .text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 100%;
+    border: 1px solid black;
+    font-size: 24px;
+    color: black;
+    transition: all .3s;
+}
+.btn-container .text-container svg {
+    display: none;
+    margin-right: 15px;
+}
+.btn-container .text-container:last-child {
+    border-radius: 0px 50px 50px 0px;
+}
+.btn-container .text-container:first-child {
+    border-radius: 50px 0px 0px 50px;
+}
+.enable {
+    background-color: #d9e7cd;
+}
+.btn-container .text-container.enable svg {
+    display: block;
+}

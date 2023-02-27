@@ -1,0 +1,8 @@
+.App {
+  flex-wrap: wrap;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 200px;
+}

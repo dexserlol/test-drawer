@@ -1,0 +1,23 @@
+.btn{
+    transition: all 1s;
+    background-color: #f3f6ea;
+    font-size: 24px;
+    width: 180px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    color: #527e3c;
+    justify-content: center;
+    box-shadow: 0px 1px 4px -1px black;
+    cursor: pointer;
+}
+.btn:active{
+    transition: all 0.15s;
+    background-color: #386a20;
+    color: #e8eee6;
+}
+.btn svg {
+    width: 40px;
+    height: 40px;
+}

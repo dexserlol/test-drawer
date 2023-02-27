@@ -1,0 +1,27 @@
+.svg-btn {
+    width: 120px;
+    height: 120px;
+    box-shadow: 0px 1px 4px -1px black;
+    background-color: #d9e7ca;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.svg-btn2 {
+    width: 190px;
+    height: 70px;
+    box-shadow: 0px 1px 4px -1px black;
+    background-color: #d9e7ca;
+    border-radius: 20px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.svg-btn2 svg{
+    width: 64px;
+}
+.svg-btn2 svg.bi.bi-plus {
+    width:64px;
+}
